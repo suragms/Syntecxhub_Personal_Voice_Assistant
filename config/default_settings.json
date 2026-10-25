@@ -1,0 +1,16 @@
+{
+  "assistant_name": "SURA",
+  "theme": "dark",
+  "language": "en-US",
+  "speech_rate": 170,
+  "volume": 0.8,
+  "recognition_mode": "online",
+  "microphone_index": null,
+  "save_history": true,
+  "voice_enabled": true,
+  "push_to_talk": true,
+  "listen_timeout": 5,
+  "phrase_timeout": 8,
+  "max_history_entries": 100,
+  "log_level": "INFO"
+}

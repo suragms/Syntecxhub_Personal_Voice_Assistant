@@ -1,0 +1,24 @@
+# SURA Voice Assistant — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core voice I/O
+SpeechRecognition>=3.10.4
+pyttsx3>=2.90
+
+# Audio backend (Windows: pre-built wheel often needed)
+# Download from: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+# pip install PyAudio-0.2.14-cp311-cp311-win_amd64.whl
+PyAudio>=0.2.14
+
+# GUI framework
+PySide6>=6.6.0
+
+# Optional offline speech recognition
+# vosk>=0.3.45  # Uncomment to enable offline mode; download model separately
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-qt>=4.2.0
